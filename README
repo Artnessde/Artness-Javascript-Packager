@@ -2,30 +2,6 @@
 Artness Javacript Packager
 ----------------------------------------------
 
-Minify your servercalls from unlimited to ONE (1). You can define
-several PACKS of Javascripts, e.g. one for development and one
-for production use.
+All Information can be found at the Git-Wiki:
 
-Compared to other Javascript-Package-Scripts this one is fully
-backend driven (no way to inject XSS and stuff).
-
-An example Call would be:
-
-<script type="text/javascript" src="/PathTo/apfJS.php?1-0-9-1"></script>
-
-apfJS.php?{Pack-#}-{Cache-Timeout}-{Compression-Level}-{allow-minify}
-
-If the HOST is not running a *NIX environment Minify is globaly set
-to 0, alike what you specify
-
-### Install Notes
-
-* if you want to use JSMin to minify the output you have to
-  set a chmod 750 on JSMin/jsmin
-
-* if you want to use the Cache, you need to chmod 777 on the
-  Cache folder
-
-### Changes
-
-* no changes available yet
+http://wiki.github.com/Artnessde/Artness-Javascript-Packager
