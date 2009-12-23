@@ -2,9 +2,12 @@
 Artness Javacript Packager
 ----------------------------------------------
 
-Minify your servercalls from unlimited to ONE (1). You can define several PACKS of Javascripts, e.g. obne for development and one for production use.
+Minify your servercalls from unlimited to ONE (1). You can define
+several PACKS of Javascripts, e.g. one for development and one
+for production use.
 
-Compared to other Javascript-Package-Scripts this one is fully backend driven (no way to inject XSS and stuff).
+Compared to other Javascript-Package-Scripts this one is fully
+backend driven (no way to inject XSS and stuff).
 
 An example Call would be:
 
@@ -12,7 +15,8 @@ An example Call would be:
 
 apfJS.php?{Pack-#}-{Cache-Timeout}-{Compression-Level}-{allow-minify}
 
-If the HOST is not running a *NIX environment Minify is globaly set to 0, alike what you specify
+If the HOST is not running a *NIX environment Minify is globaly set
+to 0, alike what you specify
 
 ### Install Notes
 
