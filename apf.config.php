@@ -2,7 +2,7 @@
 
 	define( 'APF_JSMIN', 'JSMin/jsmin' );
 
-	$packs[2]	= array(
+	$packs[1]	= array(
 					'name'		=>	'Pack1',
 					'filename'	=>	'Pack.001.js',
 					'files'		=>	array(
