@@ -55,7 +55,7 @@
 			require_once($this->config);
 
 			if( defined('APF_JSMIN') && file_exists(APF_JSMIN) && is_readable(APF_JSMIN) )
-				$this->JSMin = $JSMin;
+				$this->JSMin = APF_JSMIN;
 
 			list(	$this->packid,
 					$this->cache,
